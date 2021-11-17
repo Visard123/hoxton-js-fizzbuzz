@@ -15,11 +15,23 @@ else if (i%3===0 && i>0) {
 
     console.log(`Fizz`)
 }
+else if (i%7===0 && i>0) {
+
+    console.log(`Fish`)
+}
+else if (i%8===0 && i>0) {
+
+    console.log(`Bus`)
+}
+
+
 else{
     console.log(i)  
 }
 
 }
+ 
+let firstNumberFishBusBuzzFizz=840
 
 
 
